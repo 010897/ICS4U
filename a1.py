@@ -12,31 +12,27 @@ def greet2():
     print ('Hello,', name, '!')
 
 
-#4
-import math
+#4√
 def plus1(num):
-   num = 0
    return num + 1
+   plus1(num)
 
 
-#5
+#5√
 def max3(a,b,c):
-    Max = a
-    if b>Max:
-        Max = b
-        if c > Max:
-            Max = c
-    return Max
+    return max (a,b,c)
+    max3(a,b,c)
 
 #6
 def printN(n):
-    print (range (0,n (sep = '\n')))
+    print (range (len (0,n)))
+
+
 
 #7
 def sumN(n):
-
-    return range (+1,n)
-
+   return range (len (1,n+1))
+   sumN(n)
 #8
 def strFrirst(str):
     return str [:1]
@@ -48,9 +44,29 @@ def strHalf(str):
 
 #10
 def guessingGame(e):
-    e = 8
-    while True:
-        print ('Guess the number!\n')
+  e = 8
+  attempts = 0
+  while True:
+    guess = int (input('What is the number?\n'))
+    attempts = attempts +1
+    import time
+    time.sleep (1)
+    if guess==e :
+        print ('That is correct, CONGRATULATIONS !')
+        print ('You guessed in',attempts,'attempts')
+        break
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -67,19 +83,19 @@ def guessingGame(e):
 #3
 # greet2() √
 #4
-#print (plus1(5))-----
+#print (plus1(8))√
 #5
-#print (max3(6,4,8,))
+#print (max3(6,9,8,))√
 #6
 #print (printN(4))-----
 #7
-#sumN(5)----
+#print (sumN(5))-----
 #8
 #print (strFrirst('Carla'))√
 #9
 #print (strHalf('Shetulun'))√
 #10
-# guessingGame(7)
+#guessingGame(7)
 
 
 
