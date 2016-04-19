@@ -34,8 +34,8 @@ def printMultiDim(x):
 #2
 #print (printList([1,2,3,4]))
 #3
-print (makeList())
+#print (makeList())
 #4
 #print (multiDim([10,20,30],[40,50,60]))
 #5
-#print (printMultiDim([[1,2,3],[4,5,6],[7,8,9]]))
+print (printMultiDim([[1,2,3],[4,5,6],[7,8,9]]))
